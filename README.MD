@@ -12,7 +12,7 @@ We used the EfficentnetB0 from TensorFlow Hub. EfficientNet-b0 is a convolutiona
 
 The archtecture of EfficentnetB0 
 
-![myimage](The-structure-of-an-EfficientNetB0-model-with-the-internal-structure-of-MBConv1-and (1).png)
+![myimage](EFNB0.png)
 
 ## Results
 
