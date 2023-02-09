@@ -25,3 +25,19 @@ val_loss: 0.0977 - val_accuracy: 0.9680
 test_loss: 0.0703 - test_accuracy: 0.9720
 
 The results are satisfying, with more than 97% accuracy on the unseen test dataset.
+
+# Project 2
+
+In this project, we aim to predict the type of fruits with a simple Conv2D model and ResNet V50 from TensorFlow Hub which is a convolutional neural network that is 50 layers deep.
+
+## Results
+
+After training the model on the training dataset and evaluating it on the evaluation dataset for 5 epochs, the results of the prediction with Conv2D model on the test dataset are as below.  
+
+Conv2D model : test_loss: 0.2465  - test_accuracy: 0.9137 
+
+After training the model on the training dataset and evaluating it on the evaluation dataset for 4 epochs, the results of the prediction with ResNet V50 model on the test dataset are as below.  
+
+Conv2D model : test_loss: 0.1106  - test_accuracy: 0.9747
+
+We can conclude that the ResNet V50 performs better on the unseen test dataset.
